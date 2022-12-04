@@ -21,4 +21,13 @@ docker compose build
 docker compose up -d
 ```
 
+コンテナを起動したら、下記コマンドを実行してアプリの依存関係をインストールしてください
+
+```
+docker compose exec react-app sh
+cd react-sample
+yarn install
+yarn start
+```
+
 http://localhost:3000 にアクセスし、reactアプリが起動していることを確認してください。※起動には時間がかかります。
