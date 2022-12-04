@@ -20,3 +20,5 @@ docker compose build
 ```
 docker compose up -d
 ```
+
+http://localhost:3000 にアクセスし、reactアプリが起動していることを確認してください。※起動には時間がかかります。
